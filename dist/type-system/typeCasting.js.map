@@ -1,0 +1,1 @@
+{"version":3,"file":"typeCasting.js","sourceRoot":"","sources":["../../src/type-system/typeCasting.ts"],"names":[],"mappings":";AACA,IAAI,SAAS,GAAQ,MAAM,CAAC;AAE5B,IAAI,QAAQ,GAAG,KAAY,CAAE;AAE7B,gBAAgB;AAChB,IAAI,IAAI,GAAG;IACP,IAAI,EAAG,MAAM;IACb,KAAK,EAAE,gBAAgB;CAC1B,CAAC;AAEF,SAAS,WAAW;IAChB,OAAO,IAAI,CAAC;AAChB,CAAC;AAOD,SAAS,SAAS;IACd,OAAO,IAAgB,CAAA;AAC3B,CAAC"}

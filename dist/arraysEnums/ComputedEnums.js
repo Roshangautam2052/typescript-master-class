@@ -1,0 +1,14 @@
+"use strict";
+var AcessPermissions;
+(function (AcessPermissions) {
+    AcessPermissions[AcessPermissions["None"] = 0] = "None";
+    AcessPermissions[AcessPermissions["Read"] = 1] = "Read";
+    AcessPermissions[AcessPermissions["Write"] = 2] = "Write";
+    AcessPermissions[AcessPermissions["ReadWrite"] = 3] = "ReadWrite";
+    AcessPermissions[AcessPermissions["Delete"] = 4] = "Delete";
+    AcessPermissions[AcessPermissions["All"] = 7] = "All";
+})(AcessPermissions || (AcessPermissions = {}));
+;
+console.log(AcessPermissions.ReadWrite);
+console.log(AcessPermissions.All);
+//# sourceMappingURL=ComputedEnums.js.map

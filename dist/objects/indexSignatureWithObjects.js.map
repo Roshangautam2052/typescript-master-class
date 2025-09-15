@@ -1,0 +1,1 @@
+{"version":3,"file":"indexSignatureWithObjects.js","sourceRoot":"","sources":["../../src/objects/indexSignatureWithObjects.ts"],"names":[],"mappings":";AAAA,4EAA4E;AAkB5E,IAAI,QAAQ,GAAG;IACX,IAAI,EAAE,UAAU;IAChB,KAAK,EAAE,IAAI;IACX,MAAM,EAAE;QACJ,KAAK,EAAE;YACH,IAAI,EAAE,QAAQ;YACd,IAAI,EAAE,IAAI,IAAI,EAAE;YAChB,OAAO,EAAE,OAAO;SACnB;KACJ;CACJ,CAAA"}

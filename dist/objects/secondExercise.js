@@ -1,0 +1,19 @@
+"use strict";
+let firstUser = {
+    id: 1,
+    name: "John Doe",
+    age: 28,
+    contact: {
+        email: "john@example.com",
+        phone: "12242424"
+    },
+    preferences: {
+        theme: "dark",
+        language: "English"
+    },
+    additionalInfo: {
+        information: "This is example of index signature property"
+    }
+};
+console.log(firstUser.additionalInfo);
+//# sourceMappingURL=secondExercise.js.map
