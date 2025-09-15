@@ -1,1 +1,0 @@
-{"version":3,"file":"nestedObjects.js","sourceRoot":"","sources":["../../src/objects/nestedObjects.ts"],"names":[],"mappings":";AAyBA,IAAI,IAAI,GAAU;IACd,KAAK,EAAE,uBAAuB;IAC9B,OAAO,EAAE,qBAAqB;IAC9B,IAAI,EAAE,IAAI,IAAI,EAAE;IAChB,MAAM,EAAG;QACL,IAAI,EAAE,MAAM;QACZ,GAAG,EAAE,EAAE;QACP,YAAY,EAAE,cAAc;KAC/B;CACJ,CAAA"}
