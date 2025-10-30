@@ -1,4 +1,4 @@
-class User {
+class User565 {
     name :string;
     readonly email :string;
     lastName?:string;
@@ -13,7 +13,7 @@ class User {
     }
 }
 
-const user:User = new User("Mary", "mary@gmail.com");
-console.log(user.greet);
-user.email("hello@email.coom");
+const user565:User565 = new User565("Mary", "mary@gmail.com");
+console.log(user565.greet);
+//user565.email("hello@email.coom");
 

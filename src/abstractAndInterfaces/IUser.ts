@@ -7,7 +7,7 @@ interface IUser {
     passwordHash:string;
 }
 
-class User1 implements IUser {
+class User17 implements IUser {
     constructor(public id:number,
          public name:string,
          public passwordHash:string){}

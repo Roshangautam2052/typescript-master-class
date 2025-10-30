@@ -1,12 +1,12 @@
 type LogMessage = (message:string) => void;
-type ThrowError = (errorMessage:string) => never;
+type ThrowError1234 = (errorMessage:string) => never;
 
 
 const log:LogMessage = (message) => {
     console.log(message);
 };
 
-const throwError:ThrowError = (error) =>{
+const throwError1234:ThrowError1234 = (error) =>{
     throw new Error(error);
 }
 
@@ -14,9 +14,9 @@ function processData(data:string): void {
     log(`Processing ${data}`);
 }
 
-function errorHandlingScenario(): never {
-    throwError("An unexpected error occurred!");
-}
+// function errorHandlingScenario(): never {
+//     throwError("An unexpected error occurred!");
+// }
 
 
 console.log(log("Hello TypeScript"));

@@ -1,4 +1,4 @@
-class User1 {
+class User1234 {
     name:string;
     readonly email :string;
     lastname?:string;
@@ -10,7 +10,7 @@ class User1 {
     }
 }
 
-class Admin extends User1 {
+class Admin extends User1234 {
     isAdmin:boolean = true;
     userReporting: number;
 
@@ -25,5 +25,5 @@ class Admin extends User1 {
     }
 }
 
-const user1:User1 = new User1("John", "email", "Doe");
+const user1234:User1234 = new User1234("John", "email", "Doe");
 const admin:Admin = new Admin("Mark", "mark@gmail.com", 12);

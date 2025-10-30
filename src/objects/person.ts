@@ -19,5 +19,3 @@ let newCar: {
     brand: "BMW",
     color: "Black",
 };
-
-newCar = [];

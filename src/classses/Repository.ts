@@ -21,13 +21,13 @@ class Repository <T extends Identifiable> {
 }
 
 
-type User = Identifiable & {
+type User5678 = Identifiable & {
     id: number;
     name: string;
     email: string;
 }
 
-const userRepository = new Repository<User>();
+const userRepository = new Repository<User5678>();
 
 userRepository.add({
     id:1,
