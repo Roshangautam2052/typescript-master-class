@@ -1,10 +1,10 @@
-interface User {
+interface User11 {
     userName:string;
     email:string;
     login():void;
 }
 
-class Admin implements User {
+class Admin11 implements User11 {
 
     constructor(
         public userName:string, 
@@ -18,7 +18,7 @@ class Admin implements User {
 
 }
 
-class Customer implements User {
+class Customer implements User11 {
     constructor(public userName:string, public email:string){}
 
     login():void {
@@ -27,14 +27,14 @@ class Customer implements User {
 }
 
 class Auth {
-    public static login(user:User){
+    public static login(user:User11){
         user.login();
     }
 }
 
-const admin: Admin = new Admin("mark", "mark@email.com", 1)
-const customer = new Customer("john", "john@gmail.com")
+const admin12: Admin11 = new Admin11("mark", "mark@email.com", 1)
+const customer12 = new Customer("john", "john@gmail.com")
 
 
-Auth.login(admin);
-Auth.login(customer);
+Auth.login(admin12);
+Auth.login(customer12);

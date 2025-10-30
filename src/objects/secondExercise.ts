@@ -15,7 +15,7 @@ type Contact ={
 };
 
 
-type User = {
+type User45 = {
     readonly id : number;
     name: string;
     age?: number;
@@ -26,7 +26,7 @@ type User = {
 };
 
 
-let firstUser: User = {
+let firstUser: User45 = {
     id: 1 ,
     name: "John Doe",
     age : 28,

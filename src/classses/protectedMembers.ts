@@ -27,5 +27,5 @@ class Admin3 extends User3{
     
 }
 
-const firstUser = new User3("Harry", "harry@gmail.com", 123456, "Potter")
-console.log(firstUser.email);
+const firstUser1234 = new User3("Harry", "harry@gmail.com", 123456, "Potter")
+//console.log(firstUser.email);

@@ -7,7 +7,7 @@ function throwError1(error:string): never {
 }
 
 
-type check = never extends void? true : false;
+type check87 = never extends void? true : false;
 
-type check3 = void extends never ? true : false;
+type check88 = void extends never ? true : false;
 

@@ -28,7 +28,7 @@ enum Status {
     Cancelled = "CANCELLED",
 };
 
-let today:Day = Day.Friday;
+let today12:Day = Day.Friday;
 
 let currentStatus = Status.InProgress;
 

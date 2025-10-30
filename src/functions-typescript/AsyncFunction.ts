@@ -6,11 +6,11 @@ async function returnString(id: number):Promise<string> {
     return Promise.resolve("string");
 }
 
-type User = {
+type User567 = {
     name: string,
     age: number;
 };
 
-async function returnUser(id:number):Promise<User> {
+async function returnUser(id:number):Promise<User567> {
     return Promise.resolve({name: "John", age:20})
 }

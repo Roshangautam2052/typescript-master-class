@@ -3,21 +3,21 @@ enum AgeUnit {
     Months = "months"
 }
 
-type Person = {
+type Person1234 = {
     name: string,
     age: number;
     ageUnit: AgeUnit;
 
 }
 
-const person:Person = {
+const person1234:Person1234 = {
     name: "Scott",
     age: 30,
     ageUnit: AgeUnit.Years
 }
 
 
-function convertAgeToMonths(person: Person):Person {
+function convertAgeToMonths(person: Person1234):Person1234 {
     if(person.ageUnit === AgeUnit.Years){
         person.age = person.age * 12;
         person.ageUnit = AgeUnit.Months;
@@ -25,4 +25,4 @@ function convertAgeToMonths(person: Person):Person {
     return person;
 };
 
-console.log(convertAgeToMonths(person));
+console.log(convertAgeToMonths(person1234));
